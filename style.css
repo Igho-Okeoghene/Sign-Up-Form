@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+body {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  background-image: linear-gradient(
+      180deg,
+      hsla(0, 100%, 74%, 0.7),
+      hsla(0, 100%, 74%, 0.5)
+    ),
+    url(/images/bg-intro-mobile.png);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+.title {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 700;
+}
+.content {
+  color: white;
+  padding: 2rem 0 3rem 0;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.purple {
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  box-shadow: 4px 4px 2px hsla(248, 32%, 49%, 0.3);
+  border: hsl(248, 32%, 49%);
+  font-weight: 400;
+}
+form {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 4px 4px 2px hsla(0, 0%, 0%, 0.3);
+  border: white;
+  border-radius: 8px;
+  position: relative;
+}
+input {
+  width: 80%;
+  padding: 1.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid hsl(246, 25%, 77%);
+  color: #000;
+  font-weight: 600;
+}
+#claimButton {
+  width: 100%;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  border: hsl(154, 59%, 51%);
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px hsla(154, 59%, 51%, 0.3);
+  cursor: pointer;
+  font-weight: 700;
+}
+.footnote {
+  font-size: 0.8rem;
+  color: hsl(246, 25%, 77%);
+  font-weight: 400;
+}
+.red {
+  color: hsl(0, 100%, 74%);
+}
+.bold {
+  font-weight: 700;
+}
+.attribution {
+  margin: 2rem;
+}
+.formControl.error input {
+  border-color: hsl(0, 100%, 74%);
+}
+.formControl.success input {
+  border-color: hsl(154, 59%, 51%);
+  background-color: white;
+}
+.formControl.error #error {
+  visibility: visible;
+}
+#error {
+  position: absolute;
+  right: 3rem;
+  padding-top: 20px;
+  visibility: hidden;
+}
+small {
+  text-align: right;
+  margin-bottom: 1rem;
+  color: hsl(0, 100%, 74%);
+  display: block;
+  font-style: italic;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  .secondSide {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .purple {
+    width: 100%;
+  }
+  #error {
+    right: 5rem;
+  }
+  small {
+    margin-right: 2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    display: flex;
+  }
+  .heading {
+    margin-top: 10rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-align: left;
+  }
+  .purple {
+    padding: 1.5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .heading {
+    margin-top: 20rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+  .title {
+    font-size: 3.5rem;
+  }
+}
