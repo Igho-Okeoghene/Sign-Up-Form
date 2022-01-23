@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Igho-Okeoghene/Sign-Up-Form](https://your-solution-url.com)
-- Live Site URL: [https://igho-okeoghene.github.io/Sign-Up-Form/](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Igho-Okeoghene/Sign-Up-Form](https://github.com/Igho-Okeoghene/Sign-Up-Form)
+- Live Site URL: [https://igho-okeoghene.github.io/Sign-Up-Form/](https://igho-okeoghene.github.io/Sign-Up-Form/)
 
 ## My process
 
